@@ -1,0 +1,117 @@
+.footerbox{
+    width:100%;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.truckbox{
+    width:360px;
+    height: 360px;
+    line-height: 360px;
+}
+.truck{
+    width:161px;
+    height: 125px;
+    margin-left: 80px;
+}
+.contactbox{
+    width:360px;
+    height: 360px;
+    padding-left: 80px;
+}
+.morebox{
+    width:360px;
+    height: 360px;
+    padding-left: 80px;
+}
+.footertitle{
+    font-family: 'Source Sans Pro';
+    font-size: 26px;
+    margin-top: 84px;
+    color:#0E2368;
+    font-weight: 600;
+}
+.footertext{
+    width:220px;
+    height: 150px;
+    font-size: 17px;
+    color: #646874;
+    font-family: 'Source Sans Pro';
+}
+.socialbox{
+    width:360px;
+    height:360px;
+    padding-left: 80px;
+}
+.mediatitle{
+    font-family: 'Source Sans Pro';
+    font-size: 26px;
+    margin-top: 84px;
+    color:#0E2368;
+    font-weight: 600;
+}
+.mediabox{
+    height:28px;
+    width:175px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.copybox{
+    font-family: 'Roboto';
+    font-size: 15px;
+    margin-top: 102px;
+}
+@media screen and (max-width: 600px) {
+    .footerbox{
+        margin-top: 0;
+        width: 375px;
+    }
+    .footertitle{
+        font-size: 19px;
+        margin-top: 20px;
+
+    }
+    .footertext{
+        width: 275px;
+        font-size: 12px;
+    }
+    .truckbox{
+        padding-left: 60px;
+        height: 200px;
+        line-height: 200px;
+        
+    }
+    .truck{
+        width:75px;
+        height: 58px;
+    }
+    .morebox{
+        padding-left: 40px;
+        height: 220px;
+
+    }
+    .contactbox{
+        padding-left: 40px;
+        height: 220px;
+    }
+    .socialbox{
+        padding-left: 0;
+        height: 150px;
+    }
+    .mediatitle{
+        display: none;
+    }
+    .copybox{
+        font-size: 10px;
+        padding-left: 120px;
+        margin-top: 10px;
+    }
+    .mediabox{
+        margin:auto;
+        height: 23px;
+    }
+}

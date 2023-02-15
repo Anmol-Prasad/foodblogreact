@@ -1,0 +1,110 @@
+.articlebox{
+    width: 100%;
+}
+.articlettl{
+    width:100%;
+    height:84px;
+    line-height: 42px;
+    font-size: 50px;
+    font : 'Source Sans Pro';
+    margin-top: 158px;
+    padding-left: 108px;
+    color:#0E2368;
+}
+
+.card{
+    width:381px;
+    height:600px;
+    margin-top: 21px;
+    margin-bottom: 25px;
+    border-radius: 21px;
+}
+
+.cardbox{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    margin-bottom: 40px;
+}
+
+.imgsize{
+    width:326px;
+    height: 257px;
+    margin-left: 27px;
+    margin-top: 27px
+}
+
+.cardtitle{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 27px;
+    margin-top: 36px;
+    margin-left: 27px;
+    color:#0E2368
+}
+
+.cardcontent{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #444957;
+    margin-top: 14px;
+    margin-left: 27px;
+    width: 295px;
+}
+
+.cardbtn{
+    margin-left: 27px;
+    margin-top: 43px;
+    margin-bottom: 83px;
+    width:150px;
+    height: 50px;
+    color: #424931;
+    padding:10px;
+    border-radius: 25px;
+    border:2px solid #424931;
+    background-color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .articlebox{
+        margin-top: 0;
+        width: 375px;
+    }
+    .articlettl{
+        height: 54px;
+        font-size: 28px;
+    }
+    .imgsize{
+        width:204px;
+        height: 166px;
+    }
+    .cardtitle{
+        width: 236px;
+        height: 35px;
+        font-size: 16px;
+    }
+    .cardcontent{
+        width: 213px;
+        height: 106px;
+        font-size: 12px;
+    }
+    .cardbox{
+        width: 271px;
+        margin: auto;
+    }
+    .card{
+        height: 484px;
+    }
+    .cardbtn{
+        width: 100px;
+        height: 25px;
+        font-size: 11px;
+        padding:2px;
+        margin-left: 80px;
+    }
+}
